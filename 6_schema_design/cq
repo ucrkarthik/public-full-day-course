@@ -1,0 +1,1 @@
+CREATE CONTINUOUS QUERY mycq on air_data BEGIN SELECT median(lead) as lead, mean(co2_ppm) as co2_ppm, max(smog_level) as smog_level, min(so2_level) as so2_level INTO air_data."default".new_polutants FROM polutants GROUP BY time(5m), * END
