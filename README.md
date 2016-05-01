@@ -1,5 +1,10 @@
 # InfluxDB Training
 
+Michael Desa
+**Email:** michael@influxdb.com
+**Twitter:** @mjdesa
+
+
 ## Topics Covered
 
 * Getting Started with Time-Series Data
