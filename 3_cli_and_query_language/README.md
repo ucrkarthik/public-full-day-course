@@ -29,10 +29,10 @@ Before you begin please set the `precision` to be `rfc3339`
 
 ##### Bonus: How many series are there?
 
-#### 2. What was the highest opening stock price in the last 10 days?
+#### 2. What was the highest opening stock price between 71 and 81 days ago?
 
-#### 3. What company had the highest opening price in the last 10 days?
+#### 3. What company had the highest opening price between 71 and 81 days ago?
 
-#### 4. What was the highest opening price for each of the last 10 days and which company had this price?
+#### 4. What was the highest opening price for each of the 10 days between 71 ans 81 days ago and which company had this price?
 
-#### 5. How many of the last 30 days did the price of Google's stock (ticker='GOOG') go above $500?
+#### 5. How many of the 30 days between the 71 and 101 days ago did the price of Google's stock (ticker='GOOG') go above $500?
