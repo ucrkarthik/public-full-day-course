@@ -3,6 +3,10 @@
 * Working with the InfluxDB CLI
 * The InfluxDB Query Language
 
+```
+$ curl https://s3-us-west-2.amazonaws.com/influx-sample-data/NOAA.txt > NOAA_data.txt
+```
+
 ## By the end of this section students will be able to...
 
 * Query InfluxDB using the InfluxDB CLI.
