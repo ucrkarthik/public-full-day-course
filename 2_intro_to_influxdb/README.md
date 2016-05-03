@@ -15,24 +15,36 @@
 * Questions about the InfluxDB data model
 
 #### 1. What is the difference between regular and irregular time series?
+regular: data comes in order timely fashion
+irregular: data comes in scattered fashion
 
 #### 2. What are the names of the InfluxDB components on the graph on the screen? Additionally, please describe the roles of each of the components.
+measurement
+tag
+value
+fields
 
 #### 3. What types of values can be stored as tag values?
+String
 
 #### 4. What types of values can be stored as field values?
+int,
 
 #### 5. What is the collection of all of the tags called?
+tag set
 
 #### 6. What is the collection of all of the fields called?
+field set
 
 #### 7. What is the maximum number of tags that InfluxDB allows?
-
+many
 #### 8. What is the maximum number of fields that InfluxDB allows?
+many
 
 #### 9. What is a series? How is it different from a measurement?
+measurement is part of the series
 
 #### 10. Express a point in line protocol that has *measurement* `rainfall`, 3 *tags* `location=sf`, `meter_id=5a`, and `weather=sunny`, and 2 *fields* with keys `total` (float64), `is_raining` (bool).
+insert rainfall,location=sf,meter_id=5a,weather=sunny total=123,is_raining=true
 
 #### 11. Write some data into InfluxDB using the CLI
-

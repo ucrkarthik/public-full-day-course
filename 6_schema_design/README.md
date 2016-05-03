@@ -32,8 +32,11 @@ random,week=10,weekday=tues,meowmix=k,birthday=july,...,host=api0 value=2 144423
 ```
 
 #### 3. What is a retention policy?
+container for points
 
 #### 4. What is the relationship between retention policies, databases, and series.
+database has many rp
+series 
 
 #### 5. What is a continuous query? How are they used?
 
